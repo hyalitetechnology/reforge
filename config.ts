@@ -7,7 +7,7 @@ enum LayoutType {
 }
 
 const CONFIG = {
-  appName: 'Reforge',
+  appName: 'Project-Freebird',
   helpLink: 'https://github.com/arifszn/reforge',
   enablePWA: true,
   theme: {
@@ -16,9 +16,9 @@ const CONFIG = {
     showBreadcrumb: true,
   },
   metaTags: {
-    title: 'Reforge',
+    title: 'Project-Freebird',
     description:
-      'An out-of-box UI solution for enterprise applications as a React boilerplate.',
+      'Serveless ui template made from reforge template',
     imageURL: 'logo.svg',
   },
 };

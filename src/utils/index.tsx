@@ -1,7 +1,9 @@
 import { AxiosError } from 'axios';
 import { toast } from 'sonner';
 
-export const API_URL = `https://reqres.in/api`;
+//export const AUTH_API_URL = `https://reqres.in/api`;
+export const API_URL = import.meta.env.VITE_PUBLIC_API_URL
+export const AUTH_API_URL = import.meta.env.VITE_PUBLIC_AUTH_API_URL
 
 export enum NotificationType {
   ERROR = 'error',

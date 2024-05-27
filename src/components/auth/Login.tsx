@@ -44,7 +44,7 @@ const Login = () => {
       })
       .then((response) => {
         const admin: Admin = {
-          token: response.data.token,
+          token: response.data.token.idToken,
         };
         dispatch(login(admin));
       })
